@@ -2,10 +2,9 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer>
-      <p>Links to GitHub, LinkedIn, and Third Platform</p>
+    <footer className="footer">
+      &copy; 2023 Your Company
     </footer>
   );
-}
-
+};
 export default Footer;

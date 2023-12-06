@@ -1,41 +1,34 @@
 import React from "react";
 
-import project1 from './Portfolio';
-import project2 from './Portfolio';
-import project3 from './Portfolio';
-import project4 from './Portfolio';
-import project5 from './Portfolio';
-
-
 function Portfolio () {
   const projects = [
     {
-      img: project1,
+      img: "./images/Project 8-img.png",
       name: "Coding Quiz",
       github_link: "https://github.com/M3rycodes/Coding-Quiz-Challenge",
       live_link: "https://lcoding-quiz-app.netlify.app",
     },
     {
-      img: project2,
+      img: "./images/Project 10-img.png",
       name: "Note Taker App",
       github_link: "https://github.com/M3rycodes/myNoteTakerApp",
       live_link: "https://cute-note-taker-app.netlify.app",
     },
     {
-      img: project3,
+      img: "./images/Project 10-img.png",
       name: "Weather Dashboard",
       github_link: "https://github.com/M3rycodes/WEATHER-DASHBOARD",
       live_link: "https://weather-dashboard-site.netlify.app",
     },
     {
-      img: project4,
+      img: "./images/Project 10-img.png",
       name: "SVG Logo Generator",
       github_link:
         "https://github.com/M3rycodes/SVG-LOGO-GENERATOR",
       live_link: "https://reacttailwindnavbar.netlify.app",
     },
     {
-      img: project5,
+      img: "./images/Project 10-img.png",
       name: "Vue Country",
       github_link: "https://github.com/Sridhar-C-25",
       live_link: "https://vuecountry05.netlify.app",
@@ -45,7 +38,7 @@ function Portfolio () {
     <section id="projects" className="py-10 text-white">
       <div className="text-center">
         <h3 className="text-4xl font-semibold">
-          My <span className="text-cyan-600">Projects</span>
+          My Current <span className="text-cyan-600">Projects</span>
         </h3>
         <p className="text-gray-400 mt-3 text-lg">My awesome works</p>
       </div>
@@ -77,9 +70,6 @@ function Portfolio () {
             </div>
           </div>
         ))}
-      </div>
-      <div className="lg:block hidden text-center mt-8">
-        <img src={project_person} alt="Project Person" />
       </div>
     </section>
   );

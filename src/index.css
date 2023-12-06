@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+body {
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background: linear-gradient(deeppink, #f1f514);
+  padding: 5.5rem;
+}
+
+section{
+  padding:1rem 7%;
+}
+
+.header {
+  background-color: #20b2aa;
+  padding: 20px 0;
+  display:inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.header-hero img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.header-hero h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.header-hero h2 {
+  font-size: 16px;
+  color: #fff;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo img {
+    object-fit: cover;
+}
+
+/* Navigation styles */
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0}
+
+
+title{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.about{
+  padding: 2rem;
+  
+}
+
+.about h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Style the overall projects section */
+.projects {
+  padding: 2rem;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+/* Style the projects heading */
+.projects h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Style the projects paragraph */
+.projects p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Style the project cards container */
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Style each project card */
+.project-card {
+  max-width: 300px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* Style the project image */
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Style the project title */
+.project-card h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Style the project links */
+.project-card a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+
+
+
+
+.contact {
+  padding: 2rem;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.contact h1 {
+  display: none; /* Remove the header text */
+}
+
+.contact-form {
+  margin: 0 auto;
+  width: 300px;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.nav-menu {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #20b2aa;
+  padding: 20px 0;
+  z-index: 1;
+}
+
+.nav-menu ul{
+  display: flex;
+  list-style: none;
+  margin: 20px
+}
+.nav-menu li {
+  list-style: none;
+  font-size: 1.1rem;
+  padding: 0;
+  margin: 0 10px;
+  
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 25px;
+  transition: all .5s ease;
+}
+
+
+
+
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+}
+
+
+/* Contact styles */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-form input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
