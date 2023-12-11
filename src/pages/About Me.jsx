@@ -3,6 +3,17 @@ import React from 'react';
 
 function About() {
   return (
+
+    <div className="area">
+    <ul className="circles">
+      {[...Array(10)].map((_, index) => (
+        <li key={index}></li>
+      ))}
+    </ul>
+
+
+    
+
     <section className="about">
       <h1>About Me</h1>
       <p>I am an enthusiastic Full-Stack Web Developer with a passion for creating user-friendly and visually appealing web applications. Although I am considered entry-level to intermediate, I have a solid foundation in front-end technologies such as HTML, CSS, JavaScript, Handlebars, APIs, Node.js, and React.js. I am also familiar with back-end technologies like Node.js and Express.js.
@@ -27,6 +38,9 @@ I am currently seeking opportunities to work on challenging and rewarding projec
 
 Thank you for your time and consideration. </p>
 </section>
+</div>
+
+
   );
 };
 

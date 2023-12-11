@@ -1,11 +1,11 @@
 import React from 'react';
-import '../../index.css';
-import logo from '../../../public/images/MyCoder-logo.jpg';
 import { Link } from 'react-router-dom';
+import Logo from '../public/images/MyCoder-logo.jpg';
+import '../../src/index.css';
 
 
 
-function Navigation() {
+function Navbar() {
   return (
     <div className="header">
     <nav>
@@ -13,7 +13,9 @@ function Navigation() {
         <li>
           <Link to="/About Me">About Me</Link></li>
         <li>
-          <Link to="/Portfolio">Portfolio</Link></li>
+          <Link to="/Skills">Skills</Link></li>
+        <li>
+          <Link to="/Projects">Projects</Link></li>
         <li>
           <Link to="/Contact">Contact</Link></li>
         <li>
@@ -24,5 +26,5 @@ function Navigation() {
   );
 }
 
-export default Navigation;
+export default Navbar;
  

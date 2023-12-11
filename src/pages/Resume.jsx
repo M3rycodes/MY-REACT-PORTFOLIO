@@ -5,12 +5,7 @@ const Resume = () => {
     <section className="resume">
       
       <div className="resume-content">
-        <h2>Education</h2>
-        <ul>
-          <li>Bachelor of Science in Computer Science</li>
-          <li>University of California, Berkeley</li>
-          <li>2018 - 2022</li>
-        </ul>
+      
         <h2>Skills</h2>
         <ul>
           <li>Front-end Technologies: HTML5, CSS3, JavaScript, React.js</li>
